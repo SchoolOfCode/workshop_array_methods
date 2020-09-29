@@ -1,6 +1,6 @@
 # Array Methods Workshop
 
-Write the code for each task in the relevant js file. Change the src attribute of the script tag in `index.html` to run the file you want.
+Write the code for each task in the relevant js file. Change the src attribute of the script tag in `index.html` to run the file you want. To check that the code is working as you think it is, console.log the variables as you move through the tasks.
 
 ## Task 1 - Map
 
