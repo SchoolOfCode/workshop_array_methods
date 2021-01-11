@@ -1,3 +1,3 @@
-const codeCoaches = ["ben", "chris", "tim", "liz", "mell", "tao"];
+const codeCoaches = ["ben", "chris", "liz", "james", "tao", "tim"];
 
 const capitalisedCodeCoaches = // your code here
