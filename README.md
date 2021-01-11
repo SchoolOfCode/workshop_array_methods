@@ -12,9 +12,9 @@ const codeCoaches = ["ben", "chris", "liz", "james", "tao", "tim"];
 
 You have an array of code coaches. Unfortunately, someone forgot to capitalise their names.
 
-👉 Write a function that takes in a string and turns it to upper case.
+👉 1a. Write a function that takes in a string and turns it to upper case.
 
-👉 Use the `.map()` method to generate a new array by calling your function on each item in `codeCoaches`. Store the returned value from map in the variable `capitalisedCodeCoaches`,
+👉 1b. Use the `.map()` method to generate a new array by calling your function on each item in `codeCoaches`. Store the returned value from map in the variable `capitalisedCodeCoaches`,
 
 ## Task 2 - Filter
 
@@ -32,7 +32,7 @@ const animals = [
 
 You have an array of lovely animals. However, you can only keep the animals that start with the letter `b`. 
 
-👉 In the new variable `bListAnimals`, use the `.filter()` method to generate a new array which contains only the animals whose name begins with 'b'. 
+👉 2a. In the new variable `bListAnimals`, use the `.filter()` method to generate a new array which contains only the animals whose name begins with 'b'. 
 
 ## Task 3 - Some
 
@@ -47,7 +47,7 @@ You have an array which contains some numbers. You would like to find out if any
 - 60
 - 90
 
-👉 Declare four new variables, one for each of the above numbers. Use the `.some()` method to assign a value of true or false (a boolean) to each of the variables, depending on whether there is a multiple of that number in the `someNumbers` array. 
+👉 3a. Declare four new variables, one for each of the above numbers. Use the `.some()` method to assign a value of true or false (a boolean) to each of the variables, depending on whether there is a multiple of that number in the `someNumbers` array. 
 
 ## Task 4 - Every, Find, Find Index
 
@@ -70,13 +70,13 @@ const seventySevenTimesTable = [
 
 You think you know your seven times table, but you're feeling shakey on your seventy-seven times table.
 
-👉 Using the `.every()` method, check that every number in the `sevenTimesTable` array is a multiple of `7`.
+👉 4a. Using the `.every()` method, check that every number in the `sevenTimesTable` array is a multiple of `7`.
 
-👉 Check if every number in the `seventySevenTimesTable` array is a multiple of `77` using the `.every()` method.
+👉 4b. Check if every number in the `seventySevenTimesTable` array is a multiple of `77` using the `.every()` method.
 
-👉 Your worst fears have been confirmed. There is a rogue value in your `seventySevenTimesTable` array. Use the `.find()` method to identify which number it is.
+👉 4c. Your worst fears have been confirmed. There is a rogue value in your `seventySevenTimesTable` array. Use the `.find()` method to identify which number it is.
 
-👉 Now that you know which number is incorrect, use the `.findIndex()` method to identify the index of the number.
+👉 4d. Now that you know which number is incorrect, use the `.findIndex()` method to identify the index of the number.
 
 ## Task 5 - Nightclub Mutation (Push, Pop, Shift, Unshift, Splice, Concat)
 
@@ -107,17 +107,17 @@ For these tasks, use the following array methods:
 
 Don't forget to Google if you don't remember what they do!
 
-👉 Yet another 'catHorse' turns up at the nightclub door. Use an array method to add them to the back of the queue.
+👉 5a. Yet another 'catHorse' turns up at the nightclub door. Use an array method to add them to the back of the queue.
 
-👉 The queue is moving ever slowly forwards, and a mutated animal from the front may enter the nightclub. Remove a mutated animal from the front of the queue using an array method.
+👉 5b. The queue is moving ever slowly forwards, and a mutated animal from the front may enter the nightclub. Remove a mutated animal from the front of the queue using an array method.
 
-👉 Oh my. An 'owlDonkey' has appeared at the door. Put them straight to the front of the queue using an array method.
+👉 5c. Oh my. An 'owlDonkey' has appeared at the door. Put them straight to the front of the queue using an array method.
 
-👉 The queue really IS moving very slowly. The 'catHorse' at the back of the queue decides to call it a night. Remove the 'catHorse' at the back of the queue using an array method.
+👉 5d. The queue really IS moving very slowly. The 'catHorse' at the back of the queue decides to call it a night. Remove the 'catHorse' at the back of the queue using an array method.
 
-👉 You have received an emergency phone call concerning the 'kangarooBear' in the middle of the queue. Use an array method to remove the 'kangarooBear' from the middle of the queue.
+👉 5e. You have received an emergency phone call concerning the 'kangarooBear' in the middle of the queue. Use an array method to remove the 'kangarooBear' from the middle of the queue.
 
-👉 Classic. A group of 'rabbitSalmon' have decided to form an unofficial queue next to your queue. Using an array method, merge the unofficial queue into the original queue, so that all of the 'rabbitSalmon' are at the back of the queue.
+👉 5f. Classic. A group of 'rabbitSalmon' have decided to form an unofficial queue next to your queue. Using an array method, merge the unofficial queue into the original queue, so that all of the 'rabbitSalmon' are at the back of the queue.
 
 ```js
 const unofficialQueue = [
@@ -138,7 +138,7 @@ const broomCupboard = [2, 4, 1, 3, 7, 5, 8, 6, 10, 9, 0];
 
 The students always put their broomsticks back in the broom cupboard out of order, despite the fact they are each clearly labeled with a number. No matter, sorting numbers is a piece of cauldron cake. 
 
-👉 Using the .sort() method, rearrange the brooms (numbers) in the broomCupboard array so that they are in ASCENDING order, with broomstick 1 at index 0 and broomstick 10 and index 9.
+👉 6a. Using the .sort() method, rearrange the brooms (numbers) in the broomCupboard array so that they are in ASCENDING order, with broomstick 1 at index 0 and broomstick 10 and index 9.
 
 ```js
 const potions = [
@@ -151,7 +151,7 @@ const potions = [
 
 Tsk tsk tsk. It looks like Snape can't even sort his own potion cupboard. 
 
-👉 Using the .sort() method and the `shelf` property of each potions object, rearrange the four potions in the 'potions' array so they are in DESCENDING order of their shelves, with the 'draught of living death' at index 0 and the 'pepperup potion' at index 3.
+👉 6b. Using the .sort() method and the `shelf` property of each potions object, rearrange the four potions in the 'potions' array so they are in DESCENDING order of their shelves, with the 'draught of living death' at index 0 and the 'pepperup potion' at index 3.
 
 ```js
 const students = [
@@ -167,7 +167,7 @@ const students = [
 
 Some students have been kept behind in detention by Professor McGonagall. Obsessed with orderliness, she has asked you to sort the students into alphabetical order. 
  
-👉 Sort the names in the array in alphebetical order according to their last name.
+👉 6c. Sort the names in the array in alphebetical order according to their last name.
 
 ## Extra
 
