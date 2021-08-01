@@ -7,10 +7,10 @@ Get as much done as you can during class, and then finish up what you don't comp
 ## Task 1 - Map
 
 ```js
-const codeCoaches = ["ben", "chris", "liz", "james", "tao", "tim"];
+const codeCoaches = ["chris", "liz", "laurence", "tao", "arshi", "hamza"];
 ```
 
-You have an array of code coaches. Unfortunately, someone forgot to capitalise their names.
+You have an array of code coaches.
 
 👉 1a. Write a function that takes in a string and turns it to upper case.
 
@@ -26,7 +26,7 @@ const animals = [
   "frog",
   "beaver",
   "horse",
-  "basalisk",
+  "basilisk",
 ];
 ```
 
@@ -47,7 +47,7 @@ You have an array which contains some numbers. You would like to find out if any
 - 60
 - 90
 
-👉 3a. Declare four new variables, one for each of the above numbers. Use the `.some()` method to assign a value of true or false (a boolean) to each of the variables, depending on whether there is a multiple of that number in the `someNumbers` array. 
+👉 3a. Declare four new variables, one for each of the numbers above. Use the `.some()` method to assign a value of true or false (a boolean) to each of the variables, depending on whether there is at least one multiple of that number in the `someNumbers` array. 
 
 ## Task 4 - Every, Find, Find Index
 
@@ -68,13 +68,13 @@ const seventySevenTimesTable = [
 ];
 ```
 
-You think you know your seven times table, but you're feeling shakey on your seventy-seven times table.
+You think you know your seven times table, but you're feeling shaky on your seventy-seven times table.
 
 👉 4a. Using the `.every()` method, check that every number in the `sevenTimesTable` array is a multiple of `7`.
 
 👉 4b. Check if every number in the `seventySevenTimesTable` array is a multiple of `77` using the `.every()` method.
 
-👉 4c. Your worst fears have been confirmed. There is a rogue value in your `seventySevenTimesTable` array. Use the `.find()` method to identify which number it is.
+👉 4c. Your worst fears have been confirmed. The result of step 4b showed you that there is a rogue value in your `seventySevenTimesTable` array. Use the `.find()` method to identify which number it is.
 
 👉 4d. Now that you know which number is incorrect, use the `.findIndex()` method to identify the index of the number.
 
@@ -167,10 +167,10 @@ const students = [
 
 Some students have been kept behind in detention by Professor McGonagall. Obsessed with orderliness, she has asked you to sort the students into alphabetical order. 
  
-👉 6c. Sort the names in the array in alphebetical order according to their last name.
+👉 6c. Sort the names in the array in alphebetical order according to their *last* name.
 
 ## Extra
 
 🌟 Delete and repeat each question and solve it again.
 
-🌟 Although you've used lots of methods in this workshop, it is by no means the complete list! Research some more array methods and learn what they do.
+🌟 Although you've used lots of array methods in this workshop, it is by no means the complete list! Research some more array methods and learn what they do.
