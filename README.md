@@ -2,7 +2,7 @@
 
 Write the code for each task in the relevant js file in this repo. Change the `src` attribute of the script tag in `index.html` to run the file you want. To check that the code is working as you think it is, you can console.log the variables as you move through the tasks.
 
-Get as much done as you can during class, and then finish up what you don't complete for homework to make sure you've had the opportunity to get familiar with all of these array methods. Google and check the docs (W3Schools or MDN) for any that you're unfamiliar with!
+Get as much done as you can during class, and then finish up what you don't complete for homework to make sure you've had the opportunity to get familiar with all of these array methods. Google and check the docs (W3Schools or MDN) for any that you're unfamiliar with or that we didn't touch on in class!
 
 ## Task 1 - Map
 
