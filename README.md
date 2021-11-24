@@ -7,14 +7,14 @@ Get as much done as you can during class, and then finish up what you don't comp
 ## Task 1 - Map
 
 ```js
-const codeCoaches = ["chris", "liz", "laurence", "arshi", "hamza"];
+const cats = ["tony", "daisy", "socks", "rockie" ];
 ```
 
 You have an array of code coaches.
 
 👉 1a. Write a function that takes in a string and turns it to upper case.
 
-👉 1b. Use the `.map()` method to generate a new array by calling your function on each item in `codeCoaches`. Store the returned value from map in the variable `capitalisedCodeCoaches`,
+👉 1b. Use the `.map()` method to generate a new array by calling your function on each item in `cats`. Store the returned value from map in the variable `capitalisedCats`,
 
 ## Task 2 - Filter
 
