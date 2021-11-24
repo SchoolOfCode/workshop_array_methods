@@ -7,7 +7,7 @@ Get as much done as you can during class, and then finish up what you don't comp
 ## Task 1 - Map
 
 ```js
-const codeCoaches = ["chris", "liz", "laurence", "tao", "arshi", "hamza"];
+const codeCoaches = ["chris", "liz", "laurence", "arshi", "hamza"];
 ```
 
 You have an array of code coaches.
