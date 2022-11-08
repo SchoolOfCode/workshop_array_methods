@@ -10,7 +10,7 @@ Get as much done as you can during class, and then finish up what you don't comp
 const cats = ["tony", "daisy", "socks", "rockie" ];
 ```
 
-You have an array of code coaches.
+You have an array of cats.
 
 👉 1a. Write a function that takes in a string and turns it to upper case.
 
