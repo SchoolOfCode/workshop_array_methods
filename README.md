@@ -2,7 +2,7 @@
 
 Write the code for each task in the relevant js file in this repo. Change the `src` attribute of the script tag in `index.html` to run the file you want. To check that the code is working as you think it is, you can console.log the variables as you move through the tasks.
 
-Get as much done as you can during class, and then finish up what you don't complete for homework to make sure you've had the opportunity to get familiar with all of these array methods. Google and check the docs (W3Schools or MDN) for any that you're unfamiliar with or that we didn't touch on in class!
+Try out the first two tasks to get the fundamentals of map and filter under your belt. If you have time (now or later), try your hand at the tasks in the bonus sections to explore some other handy array methods!
 
 ## Task 1 - Map
 
@@ -34,7 +34,9 @@ You have an array of lovely animals. However, you can only keep the animals that
 
 👉 2a. In the new variable `bListAnimals`, use the `.filter()` method to generate a new array which contains only the animals whose name begins with 'b'. 
 
-## Task 3 - Some
+## Bonus challenges - explore other methods!
+
+### Task 3 - Some
 
 ```js
 const someNumbers = [4, 5, 6, 78, 2, 3, 45, 34, 2, 23, 5, 45, 6, 7, 23]
@@ -49,7 +51,7 @@ You have an array which contains some numbers. You would like to find out if any
 
 👉 3a. Declare four new variables, one for each of the numbers above. Use the `.some()` method to assign a value of true or false (a boolean) to each of the variables, depending on whether there is at least one multiple of that number in the `someNumbers` array. 
 
-## Task 4 - Every, Find, Find Index
+### Task 4 - Every, Find, Find Index
 
 ```js
 const sevenTimesTable = [7, 14, 21, 28, 35, 42, 49, 56, 63, 70];
@@ -78,7 +80,7 @@ You think you know your seven times table, but you're feeling shaky on your seve
 
 👉 4d. Now that you know which number is incorrect, use the `.findIndex()` method to identify the index of the number.
 
-## Task 5 - Nightclub Mutation (Push, Pop, Shift, Unshift, Splice, Concat)
+### Task 5 - Nightclub Mutation (Push, Pop, Shift, Unshift, Splice, Concat)
 
 ```js
 const queue = [
@@ -128,7 +130,7 @@ const unofficialQueue = [
 ];
 ```
 
-## Task 6 - The Sorting Hat (Sort)
+### Task 6 - The Sorting Hat (Sort)
 
 You are the Sorting Hat. Although you're famous for sorting Hogwart's students into houses, it turns out you can sort almost anything.
 
@@ -169,7 +171,7 @@ Some students have been kept behind in detention by Professor McGonagall. Obsess
  
 👉 6c. Sort the names in the array in alphebetical order according to their *last* name.
 
-## Extra
+### Extra
 
 🌟 Delete and repeat each question and solve it again.
 
