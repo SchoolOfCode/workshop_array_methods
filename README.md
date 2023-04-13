@@ -4,6 +4,11 @@ Write the code for each task in the relevant js file in this repo. Change the `s
 
 Try out the first two tasks to get the fundamentals of map and filter under your belt. If you have time (now or later), try your hand at the tasks in the bonus sections to explore some other handy array methods!
 
+Remember that the docs (MDN, W3Schools, etc.) have descriptions and examples of each array method if you just google the name of the method along with the word JavaScript. Additional resources:
+
+- [The JavaScript Array Handbook – JS Array Methods Explained with Examples](https://www.freecodecamp.org/news/the-javascript-array-handbook/)
+- [7 Cheat Sheets for Javascript Arrays](https://www.codewars.com/post/7-cheat-sheets-for-javascript-arrays)
+
 ## Task 1 - Map
 
 ```js
